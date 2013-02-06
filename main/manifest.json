@@ -1,0 +1,13 @@
+{
+	"name": "Https for Google search result",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "将谷歌搜索结果链接的http换为https，在打开搜索结果链接的同时使用此工具即可，这样景德镇居民就不用为搜索结果链接手写https啦。(add https prefix in place of http for url which is google search result in opened tab)",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"tabs"
+	]
+}
